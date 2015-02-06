@@ -1,0 +1,15 @@
+{
+  "name" : "Test_app(typescript_and_dynamoDB)",
+  "version" : "0.0.1",
+  "author" : "Serhey Bliznyuk <https://github.com/wishmaster2016>",
+  "description" : "Test app for connection to dynamoDB from node.js.",
+  "scripts" : {
+    "start" : "node ./index.js"
+  },
+  "dependencies" : {
+    "body-parser": "latest",
+    "express": "latest",
+    "aws-sdk": "latest"
+  },
+  "license" : "MIT"
+}

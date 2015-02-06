@@ -1,0 +1,32 @@
+<div>
+  <button class="btn btn-default" ng-click="CreateTable()">Create table</button>
+</div>
+
+<div>
+  <input type="text" placeholder="Enter username" ng-model="user.name"/>
+  <input type="password" placeholder="Enter password" ng-model="user.password"/>
+  <button class="btn btn-warning" ng-click="addUser()">Save User</button>
+  <button class="btn btn-success" ng-click="showTable()">Show Users</button>
+</div>
+
+<div class="container">
+  <table ng-show="cols.length" class="table table-bordered" style="margin-top: 50px;">
+    <thead>
+      <tr>
+        <th ng-repeat="col in cols">
+          {{ col }} 
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="user in users">
+        <td>
+          <span>{{ user.login.S }}</span>
+        </td>
+        <td>
+          <span>{{ user.password.S }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
