@@ -1,0 +1,1 @@
+{"version":3,"file":"hello.js","sourceRoot":"","sources":["hello.ts"],"names":["Greeter","Greeter.constructor"],"mappings":"AAAA,IAAM,OAAO;IACZA,SADKA,OAAOA,CACOA,QAAgBA;QAAhBC,aAAQA,GAARA,QAAQA,CAAQA;QAClCA,KAAKA,CAACA,QAAQA,CAACA,CAACA;IACjBA,CAACA;IACFD,cAACA;AAADA,CAACA,AAJD,IAIC;AAAA,CAAC;AACF,IAAI,OAAO,GAAG,IAAI,OAAO,CAAC,eAAe,CAAC,CAAC"}

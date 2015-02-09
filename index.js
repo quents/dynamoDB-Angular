@@ -14,9 +14,9 @@ server.listen(port, function () {
 
 app.use(bodyParser())
   .get('/', function(req, res) {
-    res.sendFile(__dirname + '/public/index.html');
+    res.sendFile(__dirname + '/out/public/index.html');
   })
-  .use(express.static(__dirname + '/public'))
+  .use(express.static(__dirname + '/out/public'))
   .post('/createTable', function(req, res) {
       db.createTable(req.body, function(err, data) {
         console.log(req.body);
